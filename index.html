@@ -80,8 +80,38 @@
         </div>
         <!--Right column-->
         <div class="Column_2">
-            <a href="https://github.com/prashanthlalan" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            <a href="https://github.com/prashanthlalan" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
         </div>
     </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="./images/workspace-1280538_1280.jpg" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer>
+        <p>
+            <p class="center">&copy Prashanth Lalan., <a href="https://github.com/prashanthlalan" target="_blank">Prashanth Lalan's GitHub</a></p>
+            <br>
+        </p>
+    </footer>
     </body>
 </html> 
